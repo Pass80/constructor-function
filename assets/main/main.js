@@ -45,7 +45,6 @@ class Person2 {
         const paragraph = document.createElement('p');
         paragraph.innerHTML = `${this.name} , ${this.alter} years old`;
         display.appendChild(paragraph);
-        console.log(check.checked);
         if (check.checked === false) {
             paragraph.style.color = 'red';
         } else return;
